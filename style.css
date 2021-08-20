@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: rgba(0, 0 , 0 , 0.7)url('bye.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 545px;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid lightblue;
+    border-radius: 50px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: lightblue;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumnail img{
+    width: 250px;
+    border: 2px solid gray;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+@media only screen and (max-width: 1140px) {
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .text-small{
+        margin-top: 800px;
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .section{
+        margin-top: 700px;
+    }
+}
